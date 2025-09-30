@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.send("Hola mi server en Express");
 });
 
-// Inicio del servidor
+//inicio del servidor
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
